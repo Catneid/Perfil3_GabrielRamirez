@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Perfil3 Gabriel Ramirez",
+    "slug": "perfil3-gabrielramirez",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gabrielramirez.perfil3"
+    },
+    "android": {
+      "package": "com.gabrielramirez.perfil3",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6a66d297-5c72-4520-9a23-420ffc83e4a4"
+      }
+    }
+  }
+}
